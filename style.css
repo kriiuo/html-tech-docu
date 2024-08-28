@@ -1,0 +1,40 @@
+img{
+    height: 70px;
+    width: 120px;
+
+}
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+  }
+  
+  /* Remove the jumbotron's default bottom margin */ 
+   .jumbotron {
+    margin-bottom: 0;
+  }
+ 
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+  h1{
+    background-color: rgb(228, 131, 61);
+    border-radius: 20px;
+    box-shadow: 10px 10px rgba(255, 255, 255, );
+    text-shadow: 20px white, 20px;
+  }
+    .panel-footer{
+text-align: center;
+justify-content: center;
+justify-items: center;
+text-justify: newspaper;
+word-spacing: 3px;
+  }
+  .panel-heading{
+    text-align: center;
+justify-content: center;
+justify-items: center;
+text-justify: newspaper;
+text-justify: distribute-all-lines;
+}

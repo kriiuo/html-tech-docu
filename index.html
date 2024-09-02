@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,8 +14,8 @@
 
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>SWIGGY</h1>      
-    <p>FEAST MODE ON</p>
+    <h1 class="swiggy">SWIGGY</h1>      
+    <p class="feast">FEAST MODE ON</p>
   </div>
 </div>
 
@@ -26,7 +27,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">search</a>
+      <div class="topnav">
+        <input type="text" placeholder="Search.">
+      </div>
+      
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -37,8 +41,8 @@
         <li><a href="#">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+        <li><a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1&nlr=1"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="https://www.swiggy.com/checkout"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
       </ul>
     </div>
   </div>
@@ -98,11 +102,46 @@
 
 <footer class="container-fluid text-center">
   <p>SHARE FEEDBACK HERE</p>  
-  <form class="form-inline">Get deals:
-    <input type="email" class="form-control" size="50" placeholder="Email Address">
+  <input type="email" class="form-control" size="50" placeholder="Email Address">
     <button type="button" class="btn btn-danger">Sign Up</button>
   </form>
-</footer>
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="row">
+          <h2 style="text-align:center">Login with Social Media or Manually</h2>
+          <div class="vl">
+            <span class="vl-innertext">or</span>
+          </div>
+    
+          <div class="col">
+            <a href="https://www.facebook.com/login.php/" class="fb btn">
+              <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+            </a>
+            <a href="https://twitter.com/login=" class="twitter btn">
+              <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+            </a>
+            <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1&nlr=1" class="google btn">
+              <i class="fa fa-google fa-fw"></i> Login with Google+
+            </a>
+          </div>
+    
+          <div class="col">
+            <div class="hide-md-lg">
+              <p>Or sign in manually:</p>
+            </div>
+      <div id ="id01">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Login"></div>
+          </div>
+    
+        </div>
+      </form>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+   
+  
 <script src="node.js"></script>
 </body>
 </html>
